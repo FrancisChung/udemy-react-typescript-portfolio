@@ -8,7 +8,7 @@ const GuestList: React.FC = () => {
             <h3>Guest List</h3>
             <input value={name} onChange={(e) => setName(e.target.value)}/>
             <button>Add Guest</button>
-        </div>;
+        </div>
     );
 };
 
