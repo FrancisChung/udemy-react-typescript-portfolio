@@ -13,6 +13,6 @@ export const Child = ({color, onClick}: ChildProps) => {
 export const ChildAsFC: React.FC<ChildProps> = ({color, onClick}) => {
     return <div>
         {color}
-        <button onClick={onClick}></button>
+        <button onClick={onClick}>Click Me</button>
         </div>
 };
