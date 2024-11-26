@@ -1,9 +1,11 @@
-import {ChildAsFC} from './Child'
+// import {Child, ChildAsFC} from './Child'
+//
+// const Parent = () => {
+//     return <ChildAsFC color="blue" onClick={() => console.log("OnClick Clicked") }>
+//                 Lorem Ipsem
+//            </ChildAsFC>
+// }
+//
+// export default Parent;
 
-const Parent = () => { 
-    return <ChildAsFC color="blue" onClick={() => console.log("OnClick Clicked") }>
-                Lorem Ipsem
-           </ChildAsFC>
-}
-
-export default Parent;
+export {}
