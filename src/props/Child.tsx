@@ -1,7 +1,7 @@
 interface ChildProps {
     color: string;
     onClick: () => void;
-    Children? : React.ReactNode;
+    children? : React.ReactNode;
 }
 
 export const Child = ({color, onClick}: ChildProps) => {
